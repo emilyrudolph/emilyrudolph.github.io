@@ -1,0 +1,72 @@
+/*Emily in Corner*/
+h2{
+  margin-top:10px;
+  display:inline-block;
+  float:left;
+  color:white;
+}
+
+
+/*Menu text*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:#555;
+  background: rgb(132,189,130);
+background: linear-gradient(0deg, rgba(132,189,130,1) 0%, rgba(85,85,85,1) 85%);
+background-size:cover;
+background-repeat:no-repeat;
+min-height: 100vh;
+margin:0px;
+   } 
+
+
+/*Menu Format*/
+.navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;  
+          }
+
+.navbar {
+  text-align: right;
+  background-color: #555;
+  margin-top: 0%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width : 100%;
+  height: 48px;
+  padding-bottom: 0px;
+}
+
+
+
+/*Menu Hover*/            
+.navbar a:hover {
+background-color: rgb(201, 206, 206);
+  color: black;
+                  }
+
+
+/*Menu Active Color*/                    
+.navbar a.active {
+  background-color: rgba(132,189,130,1);
+  color: rgb(0, 0, 0);
+                   }
+
+
+.body{
+  margin-top: 40px;
+}
+
+.buisnesscard{
+  width: 500px;
+}
+
+.linked{
+  width: 33.3%;
+}
