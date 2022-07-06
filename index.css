@@ -1,5 +1,13 @@
 
 /*Emily in Corner*/
+a:link{
+  text-decoration: none;
+  color:white;
+
+}
+a:visited{
+  color:white;
+}
 h2{
     margin-top:10px;
     display:inline-block;
