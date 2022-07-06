@@ -26,6 +26,7 @@ body, html {
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .hero-text button:hover {
@@ -64,6 +65,7 @@ body{
   color:white;
   margin-left:75px;
   margin-top: 75px;
+
   }
 
 /*Homepage Title*/    
@@ -251,5 +253,7 @@ p{color:white;}
   font-size: 17px;
   border-radius: 5px;
 }
+
+
     
     /*specify all colors in css so they can be called with classes*/
