@@ -46,14 +46,14 @@ body {
 .navbar a:hover {
   background-color:rgb(201, 206, 206); 
   color: rgb(0, 0, 0);
-                  }
+}
 
 
 /*Menu Active Color*/                    
 .navbar a.active {
   background-color: #00d5ff;
   color: rgb(0, 0, 0);
-                   }
+}
 
 body{
   background: rgb(0,213,255);
@@ -63,13 +63,13 @@ body{
      rgba(58,126,139,1) 40%,
      #555 77%,
      #555 100%);
-  background-size:cover;
+  background-size: cover;
   background-repeat:no-repeat;
   min-height: 100vh;
   margin:0px;
 }
 
-.sunglasspic{
-  height:100px;
-  width:auto;
+img{
+  width: 300px;
+  margin: 15px;
 }

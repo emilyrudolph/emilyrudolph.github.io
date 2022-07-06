@@ -5,20 +5,19 @@ h2{
     display:inline-block;
     float:left;
     color:white;
-    margin-left: 6px;
+    margin-left: 10px;
   }
 
 .description{
   max-width: 300px;
   margin:10px;
-
   }
 
 /*Menu text*/
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background: #555;
-  background: linear-gradient(0deg, rgba(255,19,97,1) 0%, rgba(85,85,85,1) 85%);
+  background: linear-gradient(0deg, rgba(255,19,97,1) 0%, rgba(85,85,85,1) 60%,   #555 100%);
+  background-size: cover;
   }
 
 .body{
@@ -74,7 +73,7 @@ h1{
 
 /*Background Format*/
 body, html {
-    height: 100%;
+    min-height: 100vh;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
            }
@@ -83,7 +82,7 @@ body, html {
 /*Background Format*/  
   .em-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/8KMdLdb/IMG-0973.jpg"); margin-top:100px;
-    height: 85%;
+    min-height: 85vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,23 +177,38 @@ p{color:white;}
 
 
 
-.pcolumn {
-  float: left;
-  width: 20%;
+.pictures {
+  box-align: center;
   margin: 0px;
+  display: flex;
+  width:100%;
+  justify-content: space-between;
 }
 
-/* Clearfix (clear floats) */
-.pictures{
-  clear: both;
 
+.skill{
+  color:white;
+  margin:10px;
 }
+
 
 .skills{
   display: flex;
-  
+  justify-content: space-between;
   padding: 10px;
+  margin: 75px;
 }
 
+
+.skill a:hover{
+  background-color: #555;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
     
     /*specify all colors in css so they can be called with classes*/
