@@ -4,7 +4,6 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 
@@ -26,7 +25,6 @@ body, html {
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .hero-text button:hover {
@@ -57,7 +55,7 @@ h2{
 /*Menu text*/
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(0deg, rgba(255,19,97,1) 0%, rgba(85,85,85,1) 60%,   #555 100%);
+  background: linear-gradient(0deg, #DBE6F6 0%, #C5796D 100%);
   background-size: cover;
   }
 
@@ -65,7 +63,6 @@ body{
   color:white;
   margin-left:75px;
   margin-top: 75px;
-
   }
 
 /*Homepage Title*/    
@@ -95,7 +92,6 @@ h1{
 /*Menu Hover*/            
 .navbar {
   text-align: right;
-  background-color: #555;
   margin-top: 0%;
   overflow: hidden;
   position: fixed;
@@ -115,14 +111,14 @@ h1{
 
 /*Background Format*/
 body, html {
-    min-height: 100%;
+    min-height: 100vh;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
            }
   
 
 /*Background Format*/  
-  .em-image {
+ .em-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/8KMdLdb/IMG-0973.jpg"); margin-top:100px;
     min-height: 85vh;
     background-position: center;
@@ -181,7 +177,7 @@ body, html {
     height: 48px;
     padding-bottom: 0px;
     z-index: 20;
-    background-color: #555;
+    background-color:#DBE6F6;
          }
 
          
@@ -225,7 +221,6 @@ p{color:white;}
   display: flex;
   width:100%;
   justify-content: space-between;
-  margin-left: 50px;
 }
 
 
@@ -253,7 +248,5 @@ p{color:white;}
   font-size: 17px;
   border-radius: 5px;
 }
-
-
     
     /*specify all colors in css so they can be called with classes*/
